@@ -1,0 +1,10 @@
+{{- $index := slice -}}
+{{- range .Site.RegularPages -}}
+    {{- $index = $index | append (dict 
+        "title" .Title
+        "content" .Plain
+        "permalink" .Permalink
+        "description" .Description
+    ) -}}
+{{- end -}}
+{{- $index | jsonify -}}

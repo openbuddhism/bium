@@ -70,3 +70,14 @@ markup:
   goldmark:
     renderer:
       unsafe: true    # HTML 태그 허용
+
+outputs:
+  home: [HTML, RSS, SearchIndex]  # SearchIndex 출력 추가
+  section: [HTML, RSS, SearchIndex]
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "ko.search-data"
+    isPlainText: true
+    notAlternative: true
