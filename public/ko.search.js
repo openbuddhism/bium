@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // 
 
 (function () {
-  const searchDataURL = '/bium/en.search-data.json';
+  const searchDataURL = '/bium/ko.search-data.json';
 
   const inputElements = document.querySelectorAll('.search-input');
   for (const el of inputElements) {
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
    * @returns {Promise<void>} A promise that resolves when the index is preloaded.
    */
   async function preloadIndex() {
-    const tokenize = 'forward';
+    const tokenize = 'full';
     window.pageIndex = new FlexSearch.Document({
       tokenize,
       cache: 100,
@@ -370,7 +370,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!resultsElement) return;
 
     if (!results.length) {
-      resultsElement.innerHTML = `<span class="no-result">No results found.</span>`;
+      resultsElement.innerHTML = `<span class="no-result">결과 없음</span>`;
       return;
     }
 

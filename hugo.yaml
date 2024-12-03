@@ -3,7 +3,16 @@ module:
     - path: github.com/imfing/hextra
 
 baseURL: https://openbuddhism.github.io/bium/
-languageCode: en-us
+
+# languageCode: en-us
+
+defaultContentLanguage: ko
+
+languages:
+  ko:
+    disabled: false
+    languageCode: ko
+
 title: 열린공간 BIUM
 menu:
   main:
@@ -25,10 +34,14 @@ menu:
       url: "https://github.com/openbuddhism/bium"
       params:
         icon: github
+
 params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: full
+
+  footer:
+    copyright: "© 2024 OpenBuddhism Project."
 
   navbar:
     displayTitle: true
@@ -46,4 +59,6 @@ params:
 
     flexsearch:
       # index page by: content | summary | heading | title
-      index: content    
+      index: content   
+      # full | forward | reverse | strict 
+      tokenize: full
