@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>열린공간BIUM – Docs</title>
+    <title>열린공간 BIUM – Docs</title>
     <link>http://localhost:1313/bium/docs/</link>
-    <description>Recent content in Docs on 열린공간BIUM</description>
+    <description>Recent content in Docs on 열린공간 BIUM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Dec 2024 12:55:01 +0900</lastBuildDate>

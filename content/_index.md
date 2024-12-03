@@ -1,14 +1,14 @@
 ---
 date: '2024-12-03T12:55:01+09:00'
 draft: true
-title: 'BIUM'
+title: ''
 sidebar:
   exclude: true
 toc: false
 
 ---
-# Welcome Bium Space
-열린공간비움은 불교지식과 컨텐츠를 소개합니다.
+# Welcome BIUM
+열린공간 비움은 불교지식과 컨텐츠를 소개합니다.
 
 {{< cards >}}
   {{< card link="../callout" title="Callout" icon="warning" >}}

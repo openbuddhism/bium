@@ -4,10 +4,10 @@ module:
 
 baseURL: https://openbuddhism.github.io/bium/
 languageCode: en-us
-title: 열린공간BIUM
+title: 열린공간 BIUM
 menu:
   main:
-    - name: Documentation
+    - name: DharmaNote
       pageRef: /docs
       weight: 1
     - name: Blog
@@ -29,6 +29,16 @@ params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: full
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      dark: images/logo-dark.png
+      link: /
+      width: 40
+      height: 20
 
   search:
     enable: true
