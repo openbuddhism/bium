@@ -8,4 +8,4 @@ toc: false
 
 ---
 # Welcome Bium Space
-열린공간비움
+열린공간비움은 불교지식과 컨텐츠를 소개합니다.
