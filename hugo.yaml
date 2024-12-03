@@ -36,7 +36,7 @@ params:
     logo:
       path: images/logo.png
       dark: images/logo-dark.png
-      link: /
+      link: /bium
       width: 40
       height: 20
 
