@@ -5,7 +5,7 @@ title: ''
 sidebar:
   exclude: true
 toc: false
-
+width: full
 ---
 # Welcome BIUM
 열린공간 비움은 불교지식과 컨텐츠를 소개합니다.
