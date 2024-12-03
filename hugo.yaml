@@ -56,9 +56,17 @@ params:
   search:
     enable: true
     type: flexsearch
-
+    
     flexsearch:
       # index page by: content | summary | heading | title
       index: content   
       # full | forward | reverse | strict 
-      tokenize: full
+      options:
+        tokenize: forward
+        resolution: 9
+        depth: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true    # HTML 태그 허용
