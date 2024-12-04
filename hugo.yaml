@@ -23,10 +23,10 @@ menu:
     - name: About
       pageRef: /about
       weight: 3
-    # - name: Search
-    #   weight: 4
-    #   params:
-    #     type: search
+    - name: Search
+      weight: 4
+      params:
+        type: search
     - name: GitHub
       weight: 5
       url: "https://github.com/openbuddhism/bium"
@@ -52,7 +52,7 @@ params:
       height: 20
 
   search:
-    enable: false
+    enable: true
     type: flexsearch
     
     flexsearch:
