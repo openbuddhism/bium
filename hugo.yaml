@@ -4,8 +4,6 @@ module:
 
 baseURL: https://openbuddhism.github.io/bium/
 
-# languageCode: en-us
-
 defaultContentLanguage: ko
 
 languages:
@@ -25,10 +23,10 @@ menu:
     - name: About
       pageRef: /about
       weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
+    # - name: Search
+    #   weight: 4
+    #   params:
+    #     type: search
     - name: GitHub
       weight: 5
       url: "https://github.com/openbuddhism/bium"
@@ -54,7 +52,7 @@ params:
       height: 20
 
   search:
-    enable: true
+    enable: false
     type: flexsearch
     
     flexsearch:

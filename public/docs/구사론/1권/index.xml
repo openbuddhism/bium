@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>열린공간 BIUM</title>
+    <link>http://localhost:61494/bium/docs/%EA%B5%AC%EC%82%AC%EB%A1%A0/1%EA%B6%8C/</link>
+    <description>Recent content on 열린공간 BIUM</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <atom:link href="http://localhost:61494/bium/docs/%EA%B5%AC%EC%82%AC%EB%A1%A0/1%EA%B6%8C/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
